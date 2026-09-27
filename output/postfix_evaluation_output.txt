@@ -1,0 +1,20 @@
+STACK-BASED POSTFIX EVALUATION
+==============================
+
+Input:
+8 3 2 * + 6 2 / -
+
+Evaluation Trace:
+
+8        -> Push 8
+3        -> Push 3
+2        -> Push 2
+*        -> 3 * 2 = 6
++        -> 8 + 6 = 14
+6        -> Push 6
+2        -> Push 2
+/        -> 6 / 2 = 3
+-        -> 14 - 3 = 11
+
+Final Result:
+11
